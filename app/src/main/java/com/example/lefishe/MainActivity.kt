@@ -6,6 +6,13 @@ import androidx.appcompat.app.AppCompatActivity
 import androidx.core.view.ViewCompat
 import androidx.core.view.WindowInsetsCompat
 
+data class fish{
+    val id: Int,
+    val nombre: String,
+    val nombreCientifico: String,
+    val tipo: String,
+    val haSidoPescado: Boolean
+}
 class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
