@@ -19,7 +19,7 @@ object fishList{
     val fishes= mutableListOf(
         Fish(1, "Trucha", "Amphiprion ocellaris", "Salada", "Omnívoro", false),
         Fish(2, "Carpa común", "Cyprinus carpio", "Dulce", "Omnívoro", false),
-        Fish(3, "Tiburón blanco", "Carcharodon carcharias", "Salada", "Carnívoro", false)
+        Fish(3, "Tiburón blanco", "Carcharodon carcharias", "Salada", "Carnívoro", true)
     )
 }
 class MainActivity : AppCompatActivity() {
