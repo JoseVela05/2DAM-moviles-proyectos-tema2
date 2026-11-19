@@ -12,7 +12,7 @@ data class fish{
     val nombreCientifico: String,
     val tipoDeAgua: String,
     val dietaDelPez:String,
-    val haSidoPescado: Boolean
+    val comestible: Boolean
 }
 class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
