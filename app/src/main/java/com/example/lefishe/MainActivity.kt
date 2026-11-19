@@ -10,7 +10,8 @@ data class fish{
     val id: Int,
     val nombre: String,
     val nombreCientifico: String,
-    val tipo: String,
+    val tipoDeAgua: String,
+    val dietaDelPez:String,
     val haSidoPescado: Boolean
 }
 class MainActivity : AppCompatActivity() {
